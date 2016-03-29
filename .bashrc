@@ -130,3 +130,6 @@ export https_proxy="http://cproxy.okinawa-ct.ac.jp:8080"
 export HTTPS_PROXY="http://cproxy.okinawa-ct.ac.jp:8080"
 export ftp_proxy="ftp://cproxy.okinawa-ct.ac.jp:8080"
 export FTP_PROXY="ftp://cproxy.okinawa-ct.ac.jp:8080"
+
+alias nswitch='sudo bash ~/.switch_proxy/switch_proxy.sh'
+ 

@@ -47,3 +47,4 @@ let g:jellybeans_overrides = {
       \}
 :colorscheme jellybeans
 
+inoremap <silent>jj <ESC>
