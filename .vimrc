@@ -15,6 +15,8 @@ NeoBundle 'justmao945/vim-clang'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'Shougo/neocomplcache'
 
 NeoBundleCheck
 
@@ -48,3 +50,5 @@ let g:jellybeans_overrides = {
 :colorscheme jellybeans
 
 inoremap <silent>jj <ESC>
+
+

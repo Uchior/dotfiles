@@ -85,6 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -132,4 +133,6 @@ export ftp_proxy="ftp://cproxy.okinawa-ct.ac.jp:8080"
 export FTP_PROXY="ftp://cproxy.okinawa-ct.ac.jp:8080"
 
 alias nswitch='sudo bash ~/.switch_proxy/switch_proxy.sh'
+
+alias g++='g++-5'
  
